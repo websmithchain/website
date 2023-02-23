@@ -44,7 +44,9 @@ body{
   padding: 0;
   display: flex;
   flex-direction: column;
+  width: 85%;
   width: 85vw;
+  height: 77%;
   height: 77vh;
 }
 
@@ -474,6 +476,7 @@ img {
   border: none;
   border-bottom: 1px solid whitesmoke;
   outline: none;
+  border-radius: none;
   background: rgba(66, 66, 66, 0.65);
   font-family: var(--font-normal);
 }
