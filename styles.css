@@ -318,7 +318,11 @@ body{
   font-family: var(--font-normal);
   max-width: 480px;
   padding: 0px 20px;
-  letter-spacing: 1px;
+}
+
+.about-text > p {
+  letter-spacing: 2px;
+  color: whitesmoke;
 }
 /****************+**/
 /***** Work ****+***/
