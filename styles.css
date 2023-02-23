@@ -142,8 +142,8 @@ body{
   font-weight: 300;
   transform: translateX(-50%);
   width: 80%;
-  height: 20px;
-  margin-bottom: 50px;
+  height: 1.25rem;
+  margin-bottom: 3.125rem;
   line-height: 1;
 }
 
