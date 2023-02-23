@@ -476,7 +476,7 @@ img {
   border: none;
   border-bottom: 1px solid whitesmoke;
   outline: none;
-  border-radius: none;
+  border-radius: 0;
   background: rgba(66, 66, 66, 0.65);
   font-family: var(--font-normal);
 }
