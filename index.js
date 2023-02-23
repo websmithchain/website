@@ -23,7 +23,7 @@ if (keyboard === "true") {
 /* -----------------------------------------
   collect data from contact form
  ---------------------------------------- */
-
+/*
  let form = document.querySelector('form')
 
  form.addEventListener('submit', (e) => {
@@ -40,5 +40,5 @@ if (keyboard === "true") {
   window.location.href = "formData.html"
 
  })
-
+*/
  
