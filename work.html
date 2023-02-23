@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="{folder-name}/swup/dist/swup.min.js"></script>
+    <title>
+        WebSmith Chain | front-end web dev
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" />
+    <link  rel="stylesheet" href="styles.css"/>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div>
+        <section> 
+            <div class="body-flex-container">  
+                <div class="neon-light"></div>
+                    <main class="main-container">
+                        <div class="work-container">
+                            <input type="radio" name="slider" id="item-1" checked>
+                            <input type="radio" name="slider" id="item-2">
+                            <input type="radio" name="slider" id="item-3">
+                          <div class="cards">
+                            <label class="card" for="item-1" id="song-1">
+                                <img src="./images/project-dashboard.png" alt="painting black red"/>
+                            </label>
+                            <label class="card" for="item-2" id="song-2">
+                                <img src="./images/project-picsome.png" alt="picsome project"/>
+                            </label>
+                            <label class="card" for="item-3" id="song-3">
+                                <img src="./images/project-airbnb.png" alt="airbnb experience clone project"/>
+                            </label>
+                          </div>
+                          <div class="description">
+                            <div class="upper-part">
+                              <div class="info-area" id="test">
+                                <label class="project-info" id="song-info-1">
+                                  <div class="title">Personal Dashboard</div>
+                                  <div class="sub-line">
+                                    <div class="subtitle"></div>   <!---problem with length of text, because it rotates through  --->
+                                    <div class="work-link">
+                                      <a href="https://github.com/websmithchain" target=”_blank” title="Link to Github Project">
+                                        <img src="./images/github.svg" class="work_social-image" alt="Github">
+                                      </a>
+                                    </div> 
+                                  </div>
+                                </label>
+                                <label class="project-info" id="song-info-2">
+                                  <div class="title">Pic Some E-Commerce</div>
+                                  <div class="sub-line">
+                                    <!---- <div class="subtitle"></div> ---->  <!---problem with length of thext, because it rotates through  --->
+                                    <div class="work-link">
+                                      <a href="https://github.com/websmithchain" target=”_blank” title="Link to Github Project">
+                                        <img src="./images/github.svg" class="work_social-image" alt="Github">
+                                      </a>
+                                    </div>
+                                  </div>
+                                </label>
+                                <label class="project-info" id="song-info-3">
+                                  <div class="title">AirBnb Clone</div>
+                                  <div class="sub-line">
+                                    <div class="subtitle"></div>   <!---problem with length of thext, because it rotates through  --->
+                                    <div class="work-link">
+                                      <a href="https://github.com/websmithchain" target=”_blank” title="Link to Github Project">
+                                        <img src="./images/github.svg" class="work_social-image" alt="Github">
+                                      </a>
+                                    </div>
+                                  </div>
+                                </label>
+                              </div>   <!--- problem with side scrolling on smaller screens. also scroll bar shows up to hight into the nav-bar --->
+                            </div>
+                          </div>
+                        </div>
+                    </main>  
+                <div class="neon-light"></div> 
+            </div>
+        </section>
+    <nav class="nav neon-light" role="navigation">
+        <ul class="nav__items">
+            <li class="nav__item">
+                <a href="./home.html" data-replace="Home" class="nav__link"><span>Home</span></a>
+            </li>
+            <li class="nav__item">
+                <a href="./about.html" data-replace="About" class="nav__link"><span>About</span></a>
+            </li>
+                <li class="nav__item">
+                    <a href="./work.html" data-replace="Work" class="nav__link"><span>Work</span></a>
+                </li>
+        <li class="nav__item">
+            <a href="./contact.html" data-replace="Contact" class="nav__link"><span>Contact</span></a>
+        </li>
+        </ul>
+    </nav>
+    </div>
+</body>
+</html>

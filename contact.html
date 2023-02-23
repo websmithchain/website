@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        WebSmith Chain | front-end web dev
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" />
+    <link  rel="stylesheet" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jQuery/3.5.1/jquery.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div>
+        <section> 
+            <div class="body-flex-container">  
+                <div class="neon-light"></div>
+                    <main class="main-container">
+                        <div class="contact-container">
+                          <h3 class="headline">Get in touch!</h3>
+                            <form class="form" method="POST" action="https://formsubmit.co/robin-ketterer@web.de">
+                              <div class="user-box">
+                                <input      
+                                    type="text" 
+                                    name="name-field" 
+                                    id="name-field" 
+                                    class="input-field"
+                                    required 
+                                    autofocus
+                                     />
+                                <label>Name</label> 
+                              </div>
+
+                              <div class="user-box">
+                                <input  
+                                    type="email" 
+                                    name="email-field" 
+                                    id="email-field"
+                                    class="input-field" 
+                                    required
+                                    autofocus
+                                    autocomplete="off"
+                                    />
+                                <label>E-mail</label> 
+                                </div>
+
+                                <div class="user-box">
+                                    <input  
+                                    type="text" 
+                                    name="subject-field" 
+                                    id="subject-field"
+                                    class="input-field"
+                                    required
+                                    autofocus
+                                    />
+                                    <label>Subject</label>
+                                </div>
+
+                                <div class="user-box">
+                                    <textarea   
+                                    type="text"
+                                    name="message-field" 
+                                    id="message-field"
+                                    class="input-message-field" 
+                                    required
+                                    autofocus
+                                    ></textarea>
+                                    <label>Message</label> 
+                                </div>
+                                <input type="hidden" name="_next" value="https://   domainname /thanks.html"/>
+                                <button type="submit" id="form-btn" class="link send-btn">Send!
+                                </button>
+                            </form>
+                          </div>
+                    </main>
+                <div class="neon-light"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+    <nav class="nav neon-light" role="navigation">
+    <ul class="nav__items">
+        <li class="nav__item">
+            <a href="./home.html" data-replace="Home" class="nav__link"><span>Home</span></a>
+        </li>
+        <li class="nav__item">
+            <a href="./about.html" data-replace="About" class="nav__link"><span>About</span></a>
+        </li>
+            <li class="nav__item">
+                <a href="./work.html" data-replace="Work" class="nav__link"><span>Work</span></a>
+            </li>
+    <li class="nav__item">
+        <a href="./contact.html" data-replace="Contact" class="nav__link"><span>Contact</span></a>
+    </li>
+    </ul>
+    </nav>
+</div>
+</body>
+</html>
