@@ -246,8 +246,7 @@ body{
 .footer__social-image {
     height: 1.8rem;
     padding: 1px;
-    background-color: whitesmoke;
-    color: whitesmoke;
+    background-color: white;
     border-radius: 50%;
 }
 
@@ -573,6 +572,7 @@ input:after, textarea:after, .send-btn:after {
 }
 
 .contact-link{
+  text-decoration: none;
   color: var(--neon-glow);
   border-bottom: 1px solid var(--neon-glow);
 }
