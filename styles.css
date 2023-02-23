@@ -408,13 +408,13 @@ img {
 .sub-line {
   font-family: var(--font-normal);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 80%;
   margin-left: 35px;
 }
 
 .subtitle, .work-link {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 16px;
   color: black;
   display: inline;
@@ -422,12 +422,12 @@ img {
 }
 
 .work-link {
-  font-size: 20px;
-  line-height: 14px;
-  color: #a5a5a5;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neon-soft);
   font-weight: 500;
   margin-left: auto;
-  
+  text-decoration: none;
 }
 
 .info-area {
