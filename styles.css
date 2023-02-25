@@ -641,6 +641,7 @@ input:after, textarea:after, .send-btn:after {
   }
   .form{
     width: 280px;
+    margin-top: 1rem;
   }
   .headline{
     display: none;
