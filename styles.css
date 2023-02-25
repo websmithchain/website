@@ -28,6 +28,7 @@ body{
 }
 
 .neon-light{
+    position: absolute;
     z-index: 10;
     display: flex;
     height: 80%;
@@ -40,15 +41,27 @@ body{
     
 }
 
+.left{
+  top: 3rem;
+  left: 1rem;
+}
+
+.right{
+  top: 3rem;
+  right: 1rem;
+}
+
 .main-container{
+  position: center;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  width: 85%;
-  width: 85vw;
+  width: 100%;
+  width: 100vw;
   height: 77%;
   height: 77vh;
+
 }
 
 .wiggle-container {
@@ -146,8 +159,10 @@ body{
   transform: translateX(-50%);
   width: 80%;
   height: 1.25rem;
-  margin-bottom: 3.125rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
   line-height: 1;
+
 }
 
 .nav__items {
@@ -551,7 +566,7 @@ img {
   }
   .description{
     scale: .9;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
     margin-top: -2rem;
   }
   .neon-light{
