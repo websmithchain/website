@@ -646,6 +646,11 @@ input:after, textarea:after, .send-btn:after {
   .headline{
     display: none;
   }
+  .about-text > p {
+    letter-spacing: 0px;
+    overflow: scroll;
+    line-height: normal;
+  }
   .send-btn{
     margin-top: -1rem;
   }
