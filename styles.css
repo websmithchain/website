@@ -634,11 +634,11 @@ input:after, textarea:after, .send-btn:after {
 @media(max-width: 600px){
   .neon-light{
     padding: 5px;
-  }/*
+  }
   .nav{
     top: 0;
     margin-top: 1rem;
-  }*/
+  }
   .form{
     width: 280px;
     margin-top: 2rem;
