@@ -549,15 +549,17 @@ img {
   .card{
     scale: .8;
   }
+  .description{
+    scale: .9;
+    margin-bottom: 0.5rem;
+    margin-top: -2rem;
+  }
   .neon-light{
     padding: 6px;
   }
 }
 
 @media(max-width: 600px){
-  .description{
-    scale: .8;
-  }
   .neon-light{
     padding: 5px;
   }
