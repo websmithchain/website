@@ -657,4 +657,11 @@ input:after, textarea:after, .send-btn:after {
   .send-btn{
     margin-top: -1rem;
   }
+  .work-container{
+    max-width: 90%;
+  }
+  .description{
+    padding: 0;
+    max-width: 320px;
+  }
 }
